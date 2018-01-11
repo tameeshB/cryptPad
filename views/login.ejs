@@ -26,6 +26,23 @@
         cursor: pointer;
         margin: 1%
         }
+        #branding{
+            background: -webkit-linear-gradient(right, #00dbde, #fc00ff);
+            left:100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+             -webkit-transition: all 0.4s;
+            -o-transition: all 0.4s;
+            -moz-transition: all 0.4s;
+            transition: all 0.4s;
+            cursor: pointer;
+        }
+         #branding:hover{
+            background: -webkit-linear-gradient(right, #00dbde, #d0ff008a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
     </style>
 </head>
 
@@ -35,10 +52,10 @@
         <div class="container-login100" style="background-image: url('/images/bg-01.jpg');">
             <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
                 <form class="login100-form validate-form">
-                    <span class="login100-form-title p-b-49">
+                    <span class="login100-form-title p-b-49" id= "branding">
                         CryptoPad
                     </span>
-                    <span class="login100-form-title p-b-49">
+                    <span class="login100-form-title p-b-19" style="font-size: 20px">
                         Login
                     </span>
 
@@ -60,9 +77,7 @@
                     </div>
 
                     <div class="text-right p-t-8 p-b-31">
-                        <a href="#">
-                            Forgot password?
-                        </a>
+                        <br>
                     </div>
 
                     <div class="container-login100-form-btn">
@@ -74,35 +89,6 @@
                         </div>
                     </div>
 
-                    <!-- <div class="txt1 text-center p-t-54 p-b-20">
-                        <span>
-                            Or Sign Up Using
-                        </span>
-                    </div>
-
-                    <div class="flex-c-m">
-                        <a href="#" class="login100-social-item bg1">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-
-                        <a href="#" class="login100-social-item bg2">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-
-                        <a href="#" class="login100-social-item bg3">
-                            <i class="fa fa-google"></i>
-                        </a>
-                    </div> -->
-
-                    <!-- <div class="flex-col-c p-t-155">
-                        <span class="txt1 p-b-17">
-                            Or Sign Up Using
-                        </span>
-
-                        <a href="#" class="txt2">
-                            Sign Up
-                        </a>
-                    </div> -->
                 </form>
             </div>
         </div>
